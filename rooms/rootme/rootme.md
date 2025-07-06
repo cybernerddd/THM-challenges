@@ -1,6 +1,6 @@
 # TryHackMe - Rootme
 
-##Enumeration
+## Enumeration
 Nmap Found:
 - Port 22(SSH), 80(HTTP) opened
 
