@@ -1,4 +1,6 @@
 # TryHackMe - Rootme
+> Room: [https://tryhackme.com/r/room/rrootme](https://tryhackme.com/r/room/rrootme)
+---------
 
 ## Enumeration
 Nmap Found:
@@ -9,9 +11,10 @@ Used Gobuster to find directories on the webserver
 Gobuster Found:
 -/panel/ as hidden directory
 - Found out I could upload files to the /panel/ directory so decided to drop a php reverse shell.
-- Got one from pentestmonkey(renamed it to .php5) github.link>>>>
-(https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php)
-
+- Got one from pentestmonkey(renamed it to .php5) github.link below:
+```html
+[https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php)
+```
 ## Exploitation
 Visited /uploads to open the bomb(reverseshell file) and boom;
 File upload was successful and I got a reverse shell to my listener on netcat
