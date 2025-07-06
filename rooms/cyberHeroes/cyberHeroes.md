@@ -10,7 +10,8 @@
 
 ## Writeup below
 You can read up my writeup to guide you on this if youre stuck
-CyberHeroes Writeup`(https://medium.com/@cybernerddd/tryhackme-cyberheroes-writeup-login-without-brute-force-c9adee3b9818)`
+CyberHeroes Writeup 
+`https://medium.com/@cybernerddd/tryhackme-cyberheroes-writeup-login-without-brute-force-c9adee3b9818`
 
 ## Takeaway
 - I bypassed a login page without any tools, just clear vision
